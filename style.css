@@ -1,0 +1,35 @@
+ html, body{
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/f8/cd/a2/f8cda2a249de1a7851c944ab23cfe03b.jpg");
+    color: white;
+    text-align: center;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://gizmostory.com/wp-content/uploads/2020/12/Spider-Man-2002-1536x864.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+img {
+  height: 350px;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.adams {
+  opacity: 0%;
+}
